@@ -8,17 +8,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #faf1e4;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-color: #3f1d38;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
 }
 
 .container{
   max-width:600px;
   margin:auto;
   padding: 1rem 1rem;
-  background-color: #3f1d38;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
-  min-height: 95vh;
 }
 
 h1{
@@ -54,6 +51,9 @@ input{
 }
 
 .todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position:relative;
   margin-top: 1rem;
   color: black;
@@ -67,6 +67,11 @@ input{
 
 .todo:nth-child(odd){
   background-color: #40F8FF;
+}
+
+.text{
+  max-width: 400px;
+  word-wrap: break-word;
 }
 
 .icons{
